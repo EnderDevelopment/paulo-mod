@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "texturemixer",
+  "version": "${version}",
+  "name": "Texture Mixer",
+  "description": "A mod for mixing Minecraft texture packs",
+  "authors": ["EnderDevelopment"],
+  "contact": {
+    "homepage": "https://github.com/EnderDevelopment/texturemixer",
+    "sources": "https://github.com/EnderDevelopment/texturemixer"
+  },
+  "license": "MIT",
+  "icon": "assets/texturemixer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.texturemixer.TextureMixerMod"
+    ]
+  },
+  "mixins": [
+    "texturemixer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "1.20.4"
+  }
+}
